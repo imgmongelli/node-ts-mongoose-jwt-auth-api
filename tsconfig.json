@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // Imposta la directory radice
+    "paths": {
+      "@App/*": ["src/app/*"], // Esempio: Mappa "@app" alla directory "src/app
+      "@models/*": ["src/app/Models/*"], // Esempio: Mappa "@models" alla directory "src/models"
+      "@controllers/*": ["src/app/Controllers/*"],
+      "@services/*": ["src/app/Services/*"],
+      "@exceptions/*": ["src/app/Exceptions/*"],
+      "@interfaces/*": ["src/app/Interfaces/*"],
+      "@middlewares/*": ["src/app/Middlewares/*"],
+      "@storage/*": ["src/storage/*"],
+      "@lang/*": ["src/lang/*"],
+      "@utils/*": ["src/app/Utils/*"],
+      "@routes/*": ["src/routes/*"]
+    },
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "target": "ESNext",
+    "removeComments": true,  
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noImplicitAny": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
