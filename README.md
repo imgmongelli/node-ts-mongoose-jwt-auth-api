@@ -21,7 +21,7 @@ This project is a robust Node.js 20-based scaffold, meticulously crafted with Ty
 
 ## Installation
 
-Before getting started, ensure that you have Node.js (>= 18.18.2) and npm installed on your system.
+Before getting started, ensure that you have Node.js (>= 20.11.0) and npm installed on your system.
 
 ```bash
 # Clone the repository
